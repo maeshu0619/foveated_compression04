@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foveated Compression with MPEG-DASH via http server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        video {
+            width: 60%;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        #status {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Foveated Compression with MPEG-DASH via http server</h1>
+    <video id="videoPlayer" controls autoplay></video>
+    <div id="currentSegment">現在再生中のセグメント: 未再生</div>
+    <script src="player.js"></script>
+</body>
+</html>
