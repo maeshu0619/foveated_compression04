@@ -1,0 +1,39 @@
+project-root/
+├── src/
+│   ├── client/
+│   │   ├── browser_launcher.py
+│   │   ├── client_function.py
+│   │   ├── client_operator.py
+│   │   ├── gaze_estimation.py
+│   │   ├── gaze_log_handler.py
+│   │   └── client_player.py
+│   ├── server/
+│   │   ├── foveated_compression.py
+│   │   ├── h264_compression.py
+│   │   ├── log_writing.py
+│   │   ├── mpeg_server.py
+│   │   ├── server_function.py
+│   │   └── server_operator.py
+│   ├── plot_window.py
+│   └── monitor_window.py
+├── segments/
+│   ├── logs/
+│   │   └── gaze_logs/
+│   │       └── segment_xxxx.txt
+│   ├── segmented_video/
+│   │   └── segment_xxxx.mp4
+│   ├── segmented_video_layer/
+│   │   ├── high_segmentxxxx.mp4
+│   │   ├── med_segmentxxxx.mp4
+│   │   └── low_segmentxxxx.mp4
+│   ├── manifest_layer.mpd
+│   ├── manifest.mpd
+│   ├── player.js
+│   └── player.html
+├── h264_outputs/
+│   ├── high_res.mp4
+│   ├── mde_res.mp4
+│   └── low_res.mp4
+├── Assets/
+│   └── Snow.mp4
+└── main.py
